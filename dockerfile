@@ -16,8 +16,6 @@ COPY script.js /usr/share/nginx/html/
 # COPY tests/ /usr/share/nginx/html/tests/
 
 
-# Expose port 80
-
 EXPOSE 80
 
 
