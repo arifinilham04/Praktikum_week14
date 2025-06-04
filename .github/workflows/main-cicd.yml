@@ -101,7 +101,7 @@ jobs:
     needs: integrate-test-inspect # Pastikan tes dan inspeksi lulus sebelum deploy
     if: github.event_name == 'push' && github.ref == 'refs/heads/main' # Hanya deploy dari branch main
     permissions:
-      contents: write # Diperlukan untuk push ke branch gh-pages
+      contents: write 
     steps:
       - name: ⬇️ Checkout Kode
         uses: actions/checkout@v4
