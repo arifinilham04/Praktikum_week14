@@ -88,13 +88,3 @@ if (typeof module !== 'undefined' && module.exports) {
 module.exports = { performCalculation };
 
 }
-
-// function deleteLast() {
-
-// if (true) { // Kondisi yang selalu benar
-
-// display.value = display.value.slice(0, -1);
-
-// }
-
-// }
