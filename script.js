@@ -89,12 +89,12 @@ module.exports = { performCalculation };
 
 }
 
-function deleteLast() {
+// function deleteLast() {
 
-if (true) { // Kondisi yang selalu benar
+// if (true) { // Kondisi yang selalu benar
 
-display.value = display.value.slice(0, -1);
+// display.value = display.value.slice(0, -1);
 
-}
+// }
 
-}
+// }
